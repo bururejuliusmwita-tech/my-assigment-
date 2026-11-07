@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question 2 - Form</title>
+</head>
+<body>
+
+    <p align="center">Step 1 of 5</p>
+
+    <form>
+        <!-- Outer Personal Information Fieldset -->
+        <fieldset>
+            <legend align="center">Personal Information</legend>
+            
+            <table border="0" cellpadding="4">
+                <tr>
+                    <td><label for="surname">Sur Name</label></td>
+                    <td><input type="text" id="surname" name="surname"></td>
+                </tr>
+                <tr>
+                    <td><label for="firstname">First Name</label></td>
+                    <td><input type="text" id="firstname" name="firstname"></td>
+                </tr>
+                <tr>
+                    <td><label for="othernames">Other Names</label></td>
+                    <td><input type="text" id="othernames" name="othernames"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="marital">Marital Status</label></td>
+                    <td>
+                        <select id="marital" name="marital">
+                            <option value="">Select - Status</option>
+                            <option value="single">Single</option>
+                            <option value="married">Married</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth</label></td>
+                    <td><input type="text" id="dob" name="dob"></td>
+                </tr>
+                <tr>
+                    <td><label for="pob">Place of Birth</label></td>
+                    <td><input type="text" id="pob" name="pob"></td>
+                </tr>
+                <tr>
+                    <td><label for="mother">Mothers Name</label></td>
+                    <td><input type="text" id="mother" name="mother"></td>
+                </tr>
+                <tr>
+                    <td><label for="father">fathers Name</label></td>
+                    <td><input type="text" id="father" name="father"></td>
+                </tr>
+                <tr>
+                    <td><label for="dependants">number of Dependants</label></td>
+                    <td>
+                        <select id="dependants" name="dependants">
+                            <option value="">Select - No of Dependants</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="education">level of Education</label></td>
+                    <td><input type="text" id="education" name="education"></td>
+                </tr>
+            </table>
+
+            <!-- Inner Security Information Fieldset -->
+            <fieldset>
+                <legend>Security Information</legend>
+                <table border="0" cellpadding="4">
+                    <tr>
+                        <td><label for="username">UserName</label></td>
+                        <td><input type="text" id="username" name="username"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td><input type="password" id="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="repassword">Re-type Password</label></td>
+                        <td><input type="password" id="repassword" name="repassword"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="question">Security Question</label></td>
+                        <td>
+                            <select id="question" name="question">
+                                <option value="">Select - Question</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="answer">Answer</label></td>
+                        <td><input type="text" id="answer" name="answer"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Buttons -->
+        <div align="center">
+            <input type="button" value="Previous">
+            <input type="submit" value="Next">
+        </div>
+    </form>
+
+    <p align="center">&copy; Copyright 2011 all rights reserved</p>
+
+</body>
+</html>
